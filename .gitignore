@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.sqlite
+*.db-journal
+
+# Migrations
+*/migrations/*
+
+# Ignore SQLite database files
+db.sqlite3
+
+# Media files (optional: if you store media files locally and don't want them in version control)
+media/
+
+# Ignore environment variables files
+.env
+
+# Ignore secret key and other config files (optional: if you store secrets/configs in a separate file)
+secrets.json
+
+# Django static files
+staticfiles/
+static/
+
+# Local development settings
+local_settings.py
+
+# Virtual environment
+env/
+svenv/
+ENV/
+ENV3/
+.env/
+.venv/
+.pipenv/
+
+# VS Code settings (optional)
+.vscode/
+
+# JetBrains IDEs (optional)
+.idea/
+
+# MacOS files (optional)
+.DS_Store
+
+# Windows thumbnail cache files (optional)
+Thumbs.db
+
+# Pyt

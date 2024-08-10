@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Login | Social Media{% endblock title %}
+
+
+
+{% block content %}
+
+<h3>Login</h3>
+<form action="" method="get" class="form-control">
+    {{form|crispy}}
+    <input type="submit" value="SignIn" class="btn btn-danger" name="register">
+</form>
+{% endblock content %}
